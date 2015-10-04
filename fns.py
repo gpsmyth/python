@@ -33,3 +33,12 @@ for i in fns :
     # use an if condition to qualify
     # if key == simplegui.KEY_MAP[i]:
     fns[i]()
+
+# Illustration of a dictionary mapping values to functions
+
+def f():
+    print "hi"
+
+d = {0: f}
+
+d[0]()
