@@ -1,3 +1,4 @@
+#!/usr/bin/python
 # Collatz
 
 def collatz(n):
